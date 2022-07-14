@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <h1>You can start with your application here.</h1>
+    <TodoApp></TodoApp>
   </div>
 </template>
 
 <script>
 
+
+import TodoApp from "@/components/TodoApp";
+
 export default {
   name: 'app',
+  components: {TodoApp},
 }
 </script>
 
